@@ -36,6 +36,34 @@
       "when": 1730106082469,
       "tag": "0004_tranquil_celestials",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1730185904899,
+      "tag": "0005_naive_jocasta",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1730190689351,
+      "tag": "0006_organic_dark_phoenix",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1730190888696,
+      "tag": "0007_silky_mikhail_rasputin",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1730197553937,
+      "tag": "0008_romantic_warhawk",
+      "breakpoints": true
     }
   ]
 }
