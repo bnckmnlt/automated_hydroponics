@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "automated-hydroponics",
       script: "npm",
-      args: "run dev",
+      args: "run dev:api",
       env: {
         NODE_ENV: "development",
       },

@@ -64,6 +64,55 @@
       "when": 1730197553937,
       "tag": "0008_romantic_warhawk",
       "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1730259315738,
+      "tag": "0009_black_miss_america",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1730259388346,
+      "tag": "0010_thankful_scalphunter",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1730259454983,
+      "tag": "0011_dry_pride",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1730259534678,
+      "tag": "0012_legal_raza",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1730259821884,
+      "tag": "0013_yielding_shadow_king",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1730259858647,
+      "tag": "0014_unique_vulture",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1730259957443,
+      "tag": "0015_illegal_roxanne_simpson",
+      "breakpoints": true
     }
   ]
 }
