@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist && npx tsc",
+    "build": "rimraf dist && npx tsc && concurrently \"tsx --watch src/api/index.ts\" \"drizzle-kit studio\"",
     "dev:api": "npm run build && concurrently \"tsx --watch src/api/index.ts\" \"drizzle-kit studio\"",
     "db:generate": "drizzle-kit generate",
     "db:push": "drizzle-kit push",
