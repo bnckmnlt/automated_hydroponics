@@ -3,7 +3,7 @@ import postgres from 'postgres'
 import * as schema from '@/db/schema/index'
 import env from '@/env'
 
-export const connection = postgres(env.DATABASE_URL, {
+export const connection = postgres(env.DATABASE_EXPANDED_URL, {
   max: (env.DB_MIGRATING || env.DB_SEEDING) ? 1 : undefined,
   onnotice: env.DB_SEEDING ? () => {} : undefined,
 })
