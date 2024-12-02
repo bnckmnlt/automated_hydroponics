@@ -8,13 +8,10 @@ import { createWaterECData, createWaterLevelData, createWaterpHData, createWater
 dotenv.config();
 
 const client = mqtt.connect(process.env.MQTT_URL as string, {
+  protocol: "wss",
   clientId: `clientId-${Math.random().toString(16).substr(2, 8)}`,
-  protocol: 'mqtts',
-  clean: true,
-  connectTimeout: 4000,
   username: process.env.MQTT_USERNAME,
   password: process.env.MQTT_PASSWORD,
-  reconnectPeriod: 1000,
 });
 
 client.on("connect", () => {
