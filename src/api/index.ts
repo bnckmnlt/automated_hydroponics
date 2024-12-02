@@ -35,4 +35,5 @@ app.use("/reservoir", waterParameterRoutes);
 const PORT = Number(process.env.SERVER_PORT) || 3001;
 app.listen(PORT, async () => {
   console.log("🚀 Server running on PORT", PORT);
+  console.log("Waiting for payloads", PORT);
 });
