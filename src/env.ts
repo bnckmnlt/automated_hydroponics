@@ -15,6 +15,7 @@ const EnvSchema = z.object({
   DB_NAME: z.string(),
   DB_PORT: z.coerce.number(),
   DATABASE_URL: z.string(),
+  DATABASE_EXPANDED_URL: z.string(),
   DB_MIGRATING: stringToBoolean,
   DB_SEEDING: stringToBoolean,
 })
