@@ -9,6 +9,7 @@ import mqttClient from "./services/mqttService";
 import eventRoutes from "./routes/eventRoute";
 import boxParameterRoutes from './routes/boxParameterRoute'
 import waterParameterRoutes from './routes/waterParameterRoute'
+import { connection } from "@/db";
 
 dotenv.config();
 const app = express();
@@ -27,10 +28,11 @@ app.get("/", (req, res) => {
 });
 
 app.use("/event", eventRoutes);
+
 app.use("/box", boxParameterRoutes);
 app.use("/reservoir", waterParameterRoutes);
 
 const PORT = Number(process.env.SERVER_PORT) || 3001;
-app.listen(PORT, "0.0.0.0", () => {
+app.listen(PORT, async () => {
   console.log("🚀 Server running on PORT", PORT);
 });

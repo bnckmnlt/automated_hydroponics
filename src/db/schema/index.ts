@@ -8,3 +8,4 @@ export { default as waterTDS } from './water_tds';
 export { default as waterEC } from './water_ec';
 export { default as waterLevel } from './water_level';
 export { default as event } from './event'
+export { default as eventSeverity } from './event_severity'

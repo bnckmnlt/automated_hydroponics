@@ -1,4 +1,4 @@
-import db from "@/db";
+import db, { connection } from "@/db";
 import { boxDewpoint, boxHumidity, boxPressure, boxTemperature } from "@/db/schema";
 import { Request, Response } from "express";
 
